@@ -55,7 +55,7 @@ template <class O>
 
 void showStatistic(O&out, string countryAr[], int agAr[], double hoursAr[], int size)
 {
-  double avg = getAvg(hoursAr, size); //a variable to store getAvg (I struggled to get it to print a double)
+  double avg = getAvg(hoursAr, size); //a variable to store getAvg
   string uniqCountryAr[size]; //stores the unique countries to print
 
   sort(countryAr, size);
